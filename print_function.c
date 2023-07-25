@@ -54,7 +54,7 @@ return (width);
 return (write(1, str, length));
 }
 
-/**print percent sign**/
+/**print the percent sign**/
 int print_percent(va_list types, char buffer[],
 int flags, int width, int precision, int size)
 {
